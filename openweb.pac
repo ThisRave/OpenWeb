@@ -1,6 +1,7 @@
 function FindProxyForURL(url, host)
 {
-	var cdnSrv = 'PROXY s1.telvanil.ru:10010;PROXY s3.telvanil.ru:10010';
+	var cdnSrv = 'HTTPS p4.webm.su:443;HTTPS p5.webm.su:443;HTTPS p6.webm.su:443;HTTPS p7.webm.su:443;HTTPS p8.webm.su:443;HTTPS p9.webm.su:443;SOCKS5 unokey21c3.unokeyserver.com:443;SOCKS5 unokey21c2.unokeyserver.com:443';
+	
 	var imSrv  = 'PROXY s2.telvanil.ru:10010;PROXY s4.telvanil.ru:10010';
 	var mainSrv = cdnSrv;
 
