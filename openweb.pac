@@ -10,7 +10,7 @@ function FindProxyForURL(url, host) {
 	if(shExpMatch(host, "*facebook.com") || shExpMatch(host, "*fb.com"))
 		return "DIRECT";
 
-	if(shExpMatch(host, "*vk.com") || shExpMatch(host, "*vk-cdn.net") || shExpMatch(url, "*vkuseraudio.net"))
+	if(shExpMatch(host, "*vk.com") || shExpMatch(host, "*vk-cdn.net")
 		|| shExpMatch(host, "*vk-cdn.me")
 		|| shExpMatch(host, "*userapi.com")
 		|| shExpMatch(url, "*vk.com/audios*")
