@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 	//var cdnSrv = 'SOCKS5 unokey21c3.unokeyserver.com:443;SOCKS5 unokey21c2.unokeyserver.com:443;HTTPS frpxa.com:443;HTTPS brwpks.com:443;HTTPS pksfr.com:443;HTTPS brwpx.com:443;PROXY s1.telvanil.ru:10010;PROXY s2.telvanil.ru:10010;PROXY s3.telvanil.ru:10010;PROXY s4.telvanil.ru:10010';
-	var cdnSrv = 'SOCKS5 unokey21c3.unokeyserver.com:443;SOCKS5 unokey21c2.unokeyserver.com:443';
+	var cdnSrv = 'SOCKS5 unokey21c3.unokeyserver.com:443;SOCKS5 unokey21c2.unokeyserver.com:443; PROXY s1.telvanil.ru:1448; PROXY s2.telvanil.ru:1448; PROXY s3.telvanil.ru:1448; PROXY s4.telvanil.ru:1448';
 	//var cdnSrv = 'PROXY s1.telvanil.ru:1448; PROXY s2.telvanil.ru:1448; PROXY s3.telvanil.ru:1448; PROXY s4.telvanil.ru:1448';
 	//var cdnSrv = 'HTTPS p4.webm.su:443;HTTPS p5.webm.su:443;HTTPS p6.webm.su:443;HTTPS p7.webm.su:443;HTTPS p8.webm.su:443;HTTPS p9.webm.su:443;';
 	var imSrv  = 'PROXY hole.safe-proxy.com:1084;HTTPS uk.freevpn.pw;HTTPS uk1.freevpn.pw;HTTPS de.freevpn.pw:443;HTTPS nl.freevpn.pw:443';
