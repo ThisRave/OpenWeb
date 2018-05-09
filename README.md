@@ -1,2 +1,0 @@
-# xfolio
-simple portfolio cms
