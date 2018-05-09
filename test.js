@@ -1,1 +1,1 @@
-var test = 'Git is work'
+console.log('hello git');
