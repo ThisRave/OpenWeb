@@ -13,7 +13,9 @@ function FindProxyForURL(url, host) {
 	if(shExpMatch(host, "*vk.com") 
 	   || shExpMatch(host, "*vk-cdn.net") 
 	   || shExpMatch(host, "*vk-cdn.me") 
-	   || shExpMatch(host, "*vkuseraudio.net") 
+	   || shExpMatch(host, "*vkuseraudio.net")
+	   || shExpMatch(host, "*vkuservideo.net") 
+	   || shExpMatch(host, "*vkuservideo.com") 
 	   || shExpMatch(host, "*userapi.com")
 	   || shExpMatch(host, "*vkontakte.ru")
 	   || shExpMatch(host, "*apivk.com")) {
