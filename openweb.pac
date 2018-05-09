@@ -11,11 +11,11 @@ function FindProxyForURL(url, host) {
 		return "DIRECT";
 
 	if(shExpMatch(host, "*vk.com") || shExpMatch(host, "*vk-cdn.net")
-	   	|| shExpMatch(url, "*vkuseraudio.net"))
+	   	|| shExpMatch(host, "*vkuseraudio.net"))
 		|| shExpMatch(host, "*vk-cdn.me")
 		|| shExpMatch(host, "*userapi.com")
-		|| shExpMatch(url, "*vk.com/audios*")
-		|| shExpMatch(url, "*vk.com/al_audio*"))
+		|| shExpMatch(host, "*vk.com/audios*")
+		|| shExpMatch(host, "*vk.com/al_audio*"))
 		return cdnSrv;
 
 	if(shExpMatch(host, "*vkontakte.ru")
