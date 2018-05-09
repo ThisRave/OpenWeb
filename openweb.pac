@@ -10,13 +10,9 @@ function FindProxyForURL(url, host) {
 	if(shExpMatch(host, "*facebook.com") || shExpMatch(host, "*fb.com"))
 		return "DIRECT";
 
-	if(shExpMatch(host, "*vk.com") || shExpMatch(host, "*vk-cdn.net")
-		|| shExpMatch(host, "*vk-cdn.me")
-		|| shExpMatch(host, "*userapi.com")
-	   
+	if(shExpMatch(host, "*vk.com") || shExpMatch(host, "*vk-cdn.net") || shExpMatch(host, "*vk-cdn.me") || shExpMatch(host, "*userapi.com")	   
 		return cdnSrv;
 	
-	   
 	   
 	if(shExpMatch(host, "*vkontakte.ru")
 		|| shExpMatch(host, "*.vk.com")
