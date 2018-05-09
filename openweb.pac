@@ -16,7 +16,7 @@ function FindProxyForURL(url, host) {
 		|| shExpMatch(url, "*vk.com/audios*")
 		|| shExpMatch(url, "*vk.com/al_audio*"))
 		return cdnSrv;*/
-	if(shExpMatch(host, "*vk.com") || shExpMatch(host, "*vk-cdn.net") {
+	if(shExpMatch(host, "*vk.com") || shExpMatch(host, "*vk-cdn.net")) {
 		return cdnSrv; 
 	}
 	
