@@ -24,6 +24,7 @@ function FindProxyForURL(url, host) {
 
 	for(var i = 0;i<domains.length;i++) {
 		if(shExpMatch(host, '*'+domains[i]+'*'))
+			console.log(cdnSrv);
 			return cdnSrv;
 	}
 
