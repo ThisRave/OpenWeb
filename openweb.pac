@@ -17,6 +17,7 @@ function FindProxyForURL(url, host) {
 	   || shExpMatch(host, "*userapi.com")
 	   || shExpMatch(host, "*vkontakte.ru")
 	   || shExpMatch(host, "*apivk.com")) {
+		console.log(cdnSrv);
 		return cdnSrv; 
 	}
 
