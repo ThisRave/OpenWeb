@@ -4,7 +4,7 @@ function FindProxyForURL(url, host) {
 	//var cdnSrv = 'PROXY s1.telvanil.ru:10010;PROXY s2.telvanil.ru:10010;PROXY s3.telvanil.ru:10010;PROXY s4.telvanil.ru:10010';
 	//var cdnSrv = 'PROXY s1.telvanil.ru:1448; PROXY s2.telvanil.ru:1448; PROXY s3.telvanil.ru:1448; PROXY s4.telvanil.ru:1448';
 	//var cdnSrv = 'PROXY s1.telvanil.ru:10010;PROXY s2.telvanil.ru:10010;PROXY s3.telvanil.ru:10010;PROXY s4.telvanil.ru:10010;PROXY s1.raopra.ru:10010;PROXY s2.raopra.ru:10010;PROXY s3.raopra.ru:10010;PROXY s4.raopra.ru:10010;PROXY s2.rapsan.ru:1448';
-	var cdnSrv = 'PROXY s1.telvanil.ru:1448';
+	var cdnSrv = 'SOCKS5 unokey21c3.unokeyserver.com:443';
 	//var cdnSrv = 'PROXY s1.raopra.ru:10010;PROXY s2.raopra.ru:10010;PROXY s3.raopra.ru:10010;PROXY s4.raopra.ru:10010; PROXY s2.rapsan.ru:1448';
 	
 	
