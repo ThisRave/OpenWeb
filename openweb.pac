@@ -10,7 +10,7 @@ function FindProxyForURL(url, host) {
 	if(shExpMatch(host, "*facebook.com") || shExpMatch(host, "*fb.com"))
 		return "DIRECT";
 	
-	if(shExpMatch(host, "*google.com") || shExpMatch(host, "*yootube.com"))
+	if(shExpMatch(host, "*google.com") || shExpMatch(host, "*google.pl")) || shExpMatch(host, "*yootube.com"))
 		return "DIRECT";
 	
 	if(shExpMatch(host, "*vk.com") 
